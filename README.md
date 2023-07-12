@@ -13,3 +13,6 @@ fortune-js cannot currently parse the quote files fortune-mod uses. however, fee
 
 
 To see this project at work, check out my [development page](https://zeroslab.github.io/fortune-js/test.html)! its quite volatile. 
+
+
+also it relies on [jquery](https://jquery.com).
