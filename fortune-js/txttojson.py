@@ -2,17 +2,11 @@ import json
 
 u = input("File to convert:")
 
-
 f = open(u, "r")
 dat = (f.read()) 
 
-
-
 datg = '["' + dat.replace ('http://', "").replace ('"', "") + '"]'
-datp = datg.replace ("\n%\n", '", "').replace("\n"," ")
-
-
-final = datp
+final = datg.replace ("\n%\n", '", "').replace("\n"," ")
 
 f = open(u + ".json", "w")
 f.write(final)
