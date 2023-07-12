@@ -8,9 +8,8 @@ dat = (f.read())
 
 
 
-datg = "[" + dat + "]"
-datd = datg.replace ('"', "")
-datp = datd.replace ("\n%\n", '", "')
+datg = '["' + dat.replace ('http://', "").replace ('"', "") + '"]'
+datp = datg.replace ("\n%\n", '", "').replace("\n"," ")
 
 
 final = datp
