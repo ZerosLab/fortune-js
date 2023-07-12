@@ -9,7 +9,7 @@ basically the file picks a random number and then picks from an array and writes
 the quotepath variable is the path to the quotes file. ill address those in a moment. it can be relative or absolute.
 
 ### quote files
-im working on making the format fortune-mod uses work with this version. however, at the moment, it doesnt. txttojson.py is an attempt at a script to convert from the plaintext fortunemod uses to the array that the js uses. **it is currently broken. do not expect txttojson to make a quote file functional**
+fortune-js cannot currently parse the quote files fortune-mod uses. however, feeding the plaintext documents (quotes seperated by '%') into txttojson will spit out a json file consisting of the appropriate table-format file. just point the js file there and you should be good to go. **this may have issues dealing with quotes with certain characters**. ive done what i can think of to sanitize inputs, but i can make no guaruntees. 
 
 
 To see this project at work, check out my [development page](https://zeroslab.github.io/fortune-js/test.html)! its quite volatile. 
