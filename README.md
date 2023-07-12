@@ -10,3 +10,6 @@ the quotepath variable is the path to the quotes file. ill address those in a mo
 
 ### quote files
 im working on making the format fortune-mod uses work with this version. however, at the moment, it doesnt. txttojson.py is an attempt at a script to convert from the plaintext fortunemod uses to the array that the js uses. **it is currently broken. do not expect txttojson to make a quote file functional**
+
+
+To see this project at work, check out my {development page}(https://zeroslab.github.io/fortune-js/test.html)! its quite volatile. 
