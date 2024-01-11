@@ -10,7 +10,7 @@ the quotepath variable is the path to the quotes file. ill address those in a mo
 fortune-js cannot currently parse the dat files fortune-mod uses. however, feeding the plaintext documents (quotes seperated by '%') into txttojson will spit out a json file consisting of the appropriate table-format file. just point the js file there and you should be good to go. **this may have issues dealing with quotes with certain characters**. ive done what i can think of to sanitize inputs, but i can make no guaruntees. 
 
 
-To see this project at work, check out my [development page]()! its quite volatile. 
+To see this project at work, check out the [development page](https://zeroslab.github.io/fortune-js/)!  
 
 
 also it relies on [jquery](https://jquery.com).
