@@ -3,6 +3,7 @@ elementid = "fortune";
 element = document.getElementById(elementid);
 
 $.getJSON(quotepath, function(test) {
+    console.log(test);
     if(Array.isArray(test)){
         element.textContent = test[Math.floor(Math.random() * test.length)];}
     else{
